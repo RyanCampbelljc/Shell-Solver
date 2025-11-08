@@ -1,0 +1,8 @@
+To run: npm run dev
+
+
+https://getcracked.io/questions
+1 make a question preview components.
+2 list the question previews on the home page
+3 make a question page component
+4 make question previews clickable so they open the other page.
