@@ -35,7 +35,7 @@ const QuestionPage: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center">
+    <div className="min-h-screen min-w-screen bg-gray-50 justify-center pt-20">
       {/* Header */}
       <header className="w-full bg-blue-600 text-white py-4 text-center shadow-md">
         <h1 className="text-2xl bg-blue-600 font-bold text-black">Shell Practice MVP</h1>

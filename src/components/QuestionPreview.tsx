@@ -10,9 +10,9 @@ const QuestionPreview: React.FC<Props> = ({ question, onSelect }) => {
   return (
     <div
       onClick={onSelect}
-      className="p-4 border rounded cursor-pointer hover:bg-gray-100 shadow-sm transition"
-    >
-      <h2 className="text-lg font-medium">{question.title}</h2>
+      className="p-4 border rounded cursor-pointer hover:bg-gray-600 shadow-sm transition bg-gray-500">
+
+      <h2 className="text-lg font-medium text-black">{question.title}</h2>
     </div>
   );
 };
