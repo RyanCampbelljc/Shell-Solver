@@ -1,5 +1,6 @@
 export interface Question {
   id: number;
+  difficulty: number;
   title: string;
   description: string;
   expectedOutput: string;
@@ -8,15 +9,17 @@ export interface Question {
 export const questions: Question[] = [
   {
     id: 1,
-    title: "Find Files Containing 'XYZ'",
-    description: `Suppose you had this file structure. Write a shell script to print the names of all files that contain "XYZ".`,
-    expectedOutput: "file1.txt\nfile3.log"
+    difficulty: 1.0,
+    title: "Listing Files",
+    description: `Write a command to list all the files in this directory".`,
+    expectedOutput: "ls" // TODO update all these to expected output.
   },
   {
     id: 2,
-    title: "Count Lines in a File",
+    difficulty: 1.1,
+    title: "Counting Lines",
     description: `Write a shell command to count the number of lines in 'data.txt'.`,
-    expectedOutput: "42"
+    expectedOutput: "wc -l filename.txt"
   }
 ];
   
