@@ -1,4 +1,5 @@
-To run: npm run dev
+NEXT
+I guess just reinstall all node packages. shits busted.
 
 
 https://getcracked.io/questions
@@ -6,3 +7,19 @@ https://getcracked.io/questions
 2 list the question previews on the home page
 3 make a question page component
 4 make question previews clickable so they open the other page.
+
+
+
+Now that fnm is working:
+Don’t reinstall Node from nodejs.org — always use:
+fnm install 20
+fnm use 20
+Keep your fnm PATH entry near the top in your user variables.
+(Optional but nice) Delete C:\Program Files\nodejs entirely once you’re confident nothing relies on it.
+https://chatgpt.com/c/69093e31-97f0-832e-b263-7c4beb9ad866
+
+reminder i did this
+cd "C:\Program Files\nodejs"
+rename node.exe node_old.exe
+rename npm.cmd npm_old.cmd
+rename npm npm_old
